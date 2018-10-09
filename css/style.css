@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #9702CC;
+  color: #F4F0F2;
+}
+
+article {
+  background-color: #5F9621;
+}
+
+aside {
+  background-color: #20A28A;
+}
+
+fieldset {
+  padding: 0px 35px 15px 35px;
+  width: 350px;
+  border: 3px solid #F4F4F4;
+}
+
+fieldset legend {
+  font-size: 1.8em;
+  padding: 0 10px 0 10px;
+}
+
+footer {
+  background-color: #B83C02;
+}
+
+header {
+  background-color: #E44C37;
+}
+
+input[placeholder='email@domain.com'] {
+  background-color: #168512 !important;
+}
+
+nav {
+  text-align: center;
+  background-color: #435800;
+  height: 120px;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #F4F0F2;
+  margin: 10px;
+  padding: 10px 25px 10px 25px;
+  border: 2px solid;
+  background-color: #1F8EF0;
+}
+
+nav ul li a:visited {
+  color: #F4F0F2;
+}
+
+nav ul li a:active {
+  background-color: #F4F0F2;
+  color: #1F8EF0;
+  border: 2px solid #F4F0F2;
+}
+
+nav ul li a:hover {
+  background-color: #F4F0F2;
+  color: #1F8EF0;
+}
+
+nav ul li a:focus {
+  background-color: #F4F0F2;
+  color: #1F8EF0;
+}
+
+section {
+
+}
+
+textarea {
+  resize: none;
+  height: 50px !important;
+}
+
+#body {
+  width: 600px;
+}
+
+#navigation_header {
+  padding-top: 15px;
+}
+
+#parallax_one {
+  background-image: url('../img/globe.jpeg');
+}
+
+#parallax_two {
+  background-image: url('../img/ice.jpeg');
+}
+
+#parallax_three {
+  background-image: url('../img/leaves.jpeg');
+}
+
+#parallax_four {
+  background-image: url('../img/waterfall.jpeg');
+}
+
+#parallax_five {
+  background-image: url('../img/airplane.jpeg');
+}
+
+#parallax_six {
+  background-image: url('../img/phone.jpeg');
+}
+
+#parallax_seven {
+  background-image: url('../img/watermelon.jpeg');
+}
+
+/*
+  Use javascript to add a class
+  that has css rules
+  declared on a state change.
+ */
+
+#section_zero {
+  background-color: #8B842B;
+}
+
+#section_one {
+  background-color: #611471;
+}
+
+#section_one > p::first-line {
+  font-size: 3.0em;
+}
+
+#section_one > p::after {
+  content: "New text dynamically added.";
+  font-size: 2.0em;
+}
+
+#section_two {
+  background-color: #4F23B3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section_two #button_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section_two .button {
+  background-color: #4F23B3;
+  color: #F4F4F4;
+  border: 2px solid #F4F4F4;
+  width: 170px;
+  height: 35px;
+  outline: none;
+}
+
+#section_two .button:active {
+  border: 2px solid #F4F4F4;
+  background-color: #F4F4F4;
+  color: #4F23B3;
+  outline: none;
+}
+
+#section_two .input_entry_form {
+  background-color: #4F23B3;
+  color: #F4F4F4;
+  border: 2px solid #F4F4F4;
+  margin-top: 5px;
+  display: block;
+  width: 344px;
+  height: 25px;
+}
+
+#section_two .input_entry_form::placeholder {
+  color: #F4F4F4;
+  padding-left: 3px;
+}
+
+#section_two .input_label {
+  padding-left: 1px;
+}
+
+#side_by_side {
+  display: inline-flex;
+  background-color: #6F1977;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.checkbox {
+  display: block;
+}
+
+.checkbox_label {
+  display: block;
+}
+
+.checkbox_font_size {
+  font-size: 3.0em;
+}
+
+.heading {
+  margin:  0 auto;
+  padding: 0;
+}
+
+.p-segment::first-letter {
+  font-size: 3.0em;
+}
+
+.padding {
+  padding: 15px 50px 15px 50px;
+}
+
+.parallax {
+  /* Set a specific height */
+  height: 500px;
+  width: 200vw;
+
+  margin-left: -50vw;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_first {
+  height: 100vh !important;
+}
+
+.section {
+}
+
+.side_by_side {
+  padding-left: 15px;
+  padding-right: 15px;
+}
