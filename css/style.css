@@ -45,7 +45,7 @@ input[placeholder='email@domain.com'] {
 nav {
   text-align: center;
   background-color: #435800;
-  height: 120px;
+  height: 180px;
 }
 
 nav ul {
@@ -54,6 +54,9 @@ nav ul {
   display: flex;
   justify-content: center;
   margin: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #6101ED;
 }
 
 nav ul li {
